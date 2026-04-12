@@ -18,7 +18,6 @@ function handleSearch() {
 
     setTimeout(() => {
       message.innerText = "I found a few places that match";
-
       orb.classList.remove("active");
     }, 2000);
   }, 1000);
